@@ -1,0 +1,29 @@
+{
+    "banquet": [
+        {
+            "area": "Garden",
+            "name": "Phòng hội thảo",
+            "images": [
+                "https://drive.google.com/drive-viewer/AKGpihZe9rq9UIpV8A3i0yMPli01H8z4a48wJfsdxgqeF64egBgJvVjaL-KgZ33XPOSQM6ZeFuntdzpXcw6iz8Ikhlpg0wLJcztGFI8=s1600-rw-v1",
+                "https://drive.google.com/drive-viewer/AKGpihalbU6FzZ9voofYrr8b9lms7BBkxIFOyQP_iOO8vNQSbmKP8dSHYNb9Ak-CV-3xU_-4DLJhOyWgRnz9s__Sr0EUETyy7aTVSDY=s1600-rw-v1"
+            ]
+        },
+        {
+            "area": "Holiday",
+            "name": "Hội trường",
+            "images": [
+                "https://drive.google.com/drive-viewer/AKGpihaVypCpBAj1_s2CVMyRYZNwubAvQT4j7tVy88CB3AFlmlq5bkWUE4liu78jReLyh8-dbsauqUQitTZGKL8ETv9yC_P3GKaqjBQ=s1600-rw-v1",
+                "https://drive.google.com/drive-viewer/AKGpihYAgJn7EHxYpPyQQqkxRzfIuJ6JqIAjwAgaw1aA78nSa7jUvgg57JHL2RIKR4pJx-we-LHXU9xRAyYy5Wn7fW51jtuI6W81Xw=s1600-rw-v1"
+            ]
+        },
+        {
+            "area": "Garden",
+            "name": "Phòng tiệc nhỏ",
+            "images": [
+                "https://drive.google.com/drive-viewer/AKGpihYqUkn6fqEMB94f5VRSbquknbn-cmhelM5QEIOEySihh4_f2znbbUaTbvMUA5zJc04QGRjoTw-dgSiuRg3PUMBF8DrI0HpmCLw=s1600-rw-v1",
+                "https://drive.google.com/drive-viewer/AKGpihbDj355MRIh5kYi7kzRa2LUmSKpQQk2FJtIKHTjRzMCp0Vjowo9Z9rT-wIAw7DyWwIYO4eb_JbirHeKTkz4r-y4o6qOZ4odWuY=s1600-rw-v1",
+                "https://drive.google.com/drive-viewer/AKGpihYRO4fZMAbihWqF0hQnNUYV4eMGtX1JpkcAyQQvN0BmGbv-BD89Hgenn8kFKkN6FMamobJAaXER4Zz-_IrQjiUGm8ykmTYq6_s=s1600-rw-v1"
+            ]
+        }
+    ]
+}

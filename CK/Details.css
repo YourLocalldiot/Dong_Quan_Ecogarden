@@ -1,0 +1,337 @@
+@font-face {
+    font-family: Avant_Garde_Bold;
+    src: url(/fonts/AVGARDD_2.TTF);
+}
+@font-face {
+    font-family: Avant_Garde_Italic;
+    src: url(/fonts/AVGARDDO_2.TTF);
+}
+@font-face {
+    font-family: Avant_Garde_Regular;
+    src: url(/fonts/AVGARDN_2.TTF); 
+}
+@font-face {
+    font-family: Tex_Gyre_Adventor_Regular;
+    src: url(/fonts/texgyreadventor-regular.ttf);
+}
+@font-face {
+    font-family: Tex_Gyre_Adventor_Bold;
+    src: url(/fonts/texgyreadventor-bold.ttf);
+}
+@font-face {
+    font-family: Tex_Gyre_Adventor_BoldItalic;
+    src: url(/fonts/texgyreadventor-bolditalic.ttf);
+}
+@font-face {
+    font-family: Tex_Gyre_Adventor_Italic;
+    src: url(/fonts/texgyreadventor-italic.ttf);
+}
+@font-face {
+    font-family: Comfortaa_Bold;
+    src: url(/fonts/Comfortaa-Bold.ttf);
+}
+
+.DetailsContents {
+    width: 100%;
+    height: 100vh;
+}
+.carousel {
+    display: block !important;
+}
+
+input::placeholder {
+    color: white;
+    opacity:0.75;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    background-color: #106cfc;
+    height: 45px;
+    border-radius: 8px;
+    right: 210px;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+}
+.search-input {
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 5px;
+    font-family:"Tex_Gyre_Adventor_Regular";
+    font-size: 18px;
+    color: white;
+    width: 250px;
+    border-color: transparent;
+    background-color: #106cfc;
+    border-radius: 8px;
+}
+.search-button {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.25);
+    border: transparent;
+    border-radius: 5px;
+}
+.suggestions {
+    display: none;
+    border: 1px solid #ccc;
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    max-height: 150px;
+    overflow-y: auto;
+}
+.suggestions div {
+    padding: 10px;
+    cursor: pointer;
+}
+.suggestions div:hover {
+    background: #f0f0f0;
+}
+
+.Header {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+.Header1 {
+    background-image: url(Garden1.jpg);
+}
+.HeaderBg {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+.HeaderBg>img {
+    padding: 0%;
+    margin: 0%;
+}
+.nav-item>a {
+    font-family:"Tex_Gyre_Adventor_Bold";
+    font-size: 18px;
+}
+.FixedPos {
+
+}
+.Reservation_Buton {
+    font-family: "Tex_Gyre_Adventor_Regular";
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    width: 200px;
+}
+.Title1>p {
+    font-family: "Tex_Gyre_Adventor_Regular";
+    color: white;
+    font-size: 80px;
+}
+.Contents {
+    padding: 60px 80px;
+}
+.Title1 {
+    height: 551px;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:stretch;
+    padding: 0%;
+}
+.Title2>img {
+    width: 150px;
+    height: fit-content;
+}
+.Title2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Title2>p {
+    font-family: "Tex_Gyre_Adventor_Regular";
+    color: white;
+    font-size: 50px;
+}
+
+.Footer {
+    background-color: rgb(0, 53, 0);
+    padding: 40px;
+}
+.Footer_Card_1_Title {
+    font-size: 30px;
+}
+.Footer_Card_1_Contents {
+    font-size: 18px;
+}
+.Footer_Card_2_Contents {
+    font-size: 19px;
+}
+.Footer_Card_2_Contents>li>a {
+    text-decoration: none;
+    color: white;
+}
+.Areas_Title {
+    font-size: 50px;
+}
+.Areas_Contents_Title {
+    font-size: 45px;
+}
+.Areas_Contents_Contents {
+    font-size: 18px;
+}
+.Footer_1 {
+    min-width: 100px;
+}
+.Footer_2 {
+    min-width: 100px;
+}
+.Footer_3 {
+    min-width: 100px;
+}
+.Areas_imgs>img {
+    width: 100%;
+    height: 240px;
+}
+.Areas_Overview {
+    font-size: 16px;
+}
+.Areas_Overview>a {
+    color: rgb(0, 53, 0)
+}
+.Reasons_Title {
+    font-size: 50px;
+    text-align: center;
+}
+.Reasons_imgs>img {
+    width: 100%;
+    height: 320px;
+}
+.Reasons_Carousel {
+    width: 45%;
+}
+.Reasons_Contents {
+    width: 50%;
+}
+/*Carousel img responsive */
+@media only screen and (max-width:1500px) {
+    .Areas_imgs>img {
+        height: 230px;
+    }
+}
+@media only screen and (max-width:1350px) {
+    .Areas_imgs>img {
+        height: 220px;
+    }
+}
+@media only screen and (max-width:1200px) {
+    .Areas_imgs>img {
+        height: 220px;
+    }
+    .Reasons_imgs>img {
+        height: 500px;
+    }
+    .Reasons_Contents {
+        width: 100%;
+    }
+    .Reasons_Carousel {
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width:1000px) {
+    .Reasons_imgs>img {
+        height: 450px;
+    }
+}
+/*-------*/
+
+
+@media only screen and (max-width:750px) {
+    .Title2>img {
+        width: 100px;
+    }
+    .Title1>p {
+        font-size: 60px;
+    }
+    .Title2>p {
+        font-size: 37.5px;
+    }
+    .Contents {
+        padding: 30px 40px;
+    }
+    .Header1 {
+        height: 500.25px;
+    }
+    .Title1 {
+        height: 410.25px;
+    }
+    .py-1 {
+        font-size: 17px;
+    }
+    .Footer_Card_2_Contents {
+        font-size: 17px;
+    }
+    .Footer {
+        padding: 20px;
+    }
+    .Reasons_Title {
+        font-size: 40px;
+    }
+    .Reasons_imgs>img {
+        height: 320px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .Contents {
+        padding: 30px 10px;
+    }
+    .Header1 {
+        height: 400.2px;
+    }
+    .Title1 {
+        height: 320.25px;
+    }
+    .py-1 {
+        font-size: 16px;
+    }
+    .Footer_Card_2_Contents {
+        font-size: 16px;
+    }
+    .Footer {
+        padding: 15px;
+    }
+    .Reasons_Title {
+        font-size: 35px;
+    }
+    .Reasons_imgs>img {
+        height: 200px;
+    }
+}
+@media only screen and (max-width:450px) {
+    .Title2>img {
+        width: 60px;
+    }
+    .Title1>p {
+        font-size: 40px;
+    }
+    .Title2>p {
+        font-size: 25px;
+    }
+    .py-1 {
+        font-size: 14px;
+    }
+    .Footer_Card_2_Contents {
+        font-size: 14px;
+    }
+    .Footer {
+        padding: 10px;
+    }
+    .Reasons_imgs>img {
+        height: 180px;
+    }
+}

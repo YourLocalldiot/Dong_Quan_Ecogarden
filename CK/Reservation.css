@@ -1,0 +1,362 @@
+@font-face {
+    font-family: Avant_Garde_Bold;
+    src: url(/fonts/AVGARDD_2.TTF);
+}
+@font-face {
+    font-family: Avant_Garde_Italic;
+    src: url(/fonts/AVGARDDO_2.TTF);
+}
+@font-face {
+    font-family: Avant_Garde_Regular;
+    src: url(/fonts/AVGARDN_2.TTF); 
+}
+@font-face {
+    font-family: Tex_Gyre_Adventor_Regular;
+    src: url(/fonts/texgyreadventor-regular.ttf);
+}
+@font-face {
+    font-family: Tex_Gyre_Adventor_Bold;
+    src: url(/fonts/texgyreadventor-bold.ttf);
+}
+@font-face {
+    font-family: Tex_Gyre_Adventor_BoldItalic;
+    src: url(/fonts/texgyreadventor-bolditalic.ttf);
+}
+@font-face {
+    font-family: Tex_Gyre_Adventor_Italic;
+    src: url(/fonts/texgyreadventor-italic.ttf);
+}
+@font-face {
+    font-family: Comfortaa_Bold;
+    src: url(/fonts/Comfortaa-Bold.ttf);
+}
+
+input::placeholder {
+    color: white;
+    opacity:0.75;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    background-color: #106cfc;
+    height: 45px;
+    border-radius: 8px;
+    right: 210px;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+}
+.search-input {
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 5px;
+    font-family:"Tex_Gyre_Adventor_Regular";
+    font-size: 18px;
+    color: white;
+    width: 250px;
+    border-color: transparent;
+    background-color: #106cfc;
+    border-radius: 8px;
+}
+.search-button {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.25);
+    border: transparent;
+    border-radius: 5px;
+}
+.suggestions {
+    display: none;
+    border: 1px solid #ccc;
+    width: 100%;
+    background: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    max-height: 150px;
+    overflow-y: auto;
+}
+.suggestions div {
+    padding: 10px;
+    cursor: pointer;
+}
+.suggestions div:hover {
+    background: #f0f0f0;
+}
+
+.Areas_Title {
+    font-size: 50px;
+}
+.form-label {
+    font-family: "Tex_Gyre_Adventor_Bold" !important;
+}
+.form-control {
+    font-family: "Comfortaa_Bold";
+}
+.form-select {
+    font-family: "Comfortaa_Bold";
+}
+.Header {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+} 
+.Header1 {
+    background-image: url(Garden1.jpg);
+}
+.HeaderBg {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+.HeaderBg>img {
+    padding: 0%;
+    margin: 0%;
+}
+.nav-item>a {
+    font-family:"Tex_Gyre_Adventor_Bold";
+    font-size: 18px;
+}
+.FixedPos {
+
+}
+.Reservation_Buton {
+    font-family: "Tex_Gyre_Adventor_Regular";
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    width: 200px;
+}
+.Title1>p {
+    font-family: "Tex_Gyre_Adventor_Regular";
+    color: white;
+    font-size: 80px;
+}
+.Title1 {
+    height: 410px;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:stretch;
+    padding: 0%;
+}
+.Title2>img {
+    width: 150px;
+    height: fit-content;
+}
+.Title2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Title2>p {
+    font-family: "Tex_Gyre_Adventor_Regular";
+    color: white;
+    font-size: 50px;
+}
+.Contacts_Overview {
+    min-width: 200px;
+    max-height: 1000px;
+}
+.Contents {
+    padding: 60px 80px;
+}
+.Contacts_Overview_Text {
+    padding: 0px 300px;
+    font-size: 24px;
+}
+.Maps1 {
+    height: 100%;
+    width: 100%;
+    min-height: 600px;
+    min-width: 200px;
+}
+.Maps2 {
+    width: 100%;
+}
+.Contacts_Contacts {
+    margin: 0px 40px;
+}
+.Contacts_Contacts>p {
+    font-family: "Comfortaa";
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+    margin: 0%;
+}
+.Contacts_Contacts>h2 {
+    font-family: "Comfortaa_Bold";
+    font-size: 28px;
+}
+.Contacts_Contacts>h1 {
+    font-family: "Tex_Gyre_Adventor_Bold";
+    color: rgb(66, 66, 66);
+    font-size: 22px;
+}
+.Contacts_Contents {
+    margin: 30px 0px;
+}
+.Contacts_Website>p {
+    font-family: "Comfortaa";
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+}
+.Contacts_Website>a {
+    font-family: "Comfortaa";
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+}
+.Footer {
+    background-color: rgb(0, 53, 0);
+    padding: 40px;
+}
+.Footer_Card_1_Title {
+    font-size: 30px;
+}
+.Footer_Card_1_Contents {
+    font-size: 18px;
+}
+.Footer_Card_2_Contents {
+    font-size: 19px;
+}
+.Footer_Card_2_Contents>li>a {
+    text-decoration: none;
+    color: white;
+}
+.Footer {
+    background-color: rgb(0, 53, 0);
+}
+.Footer_Card_1_Title {
+    font-size: 30px;
+}
+.Footer_Card_1_Contents {
+    font-size: 18px;
+}
+.Footer_Card_2_Contents {
+    font-size: 19px;
+}
+.Footer_Card_2_Contents>li>a {
+    text-decoration: none;
+    color: white;
+}
+.Footer_1 {
+    min-width: 100px;
+}
+.Footer_2 {
+    min-width: 100px;
+}
+.Footer_3 {
+    min-width: 100px;
+}
+@media only screen and (max-width:750px) {
+    .Contacts_Overview_Text {
+        font-size: 18px;
+        padding: 0px 50px;
+    }
+    .Title2>img {
+        width: 100px;
+    }
+    .Title1>p {
+        font-size: 60px;
+    }
+    .Title2>p {
+        font-size: 37.5px;
+    }
+    .Contents {
+        padding: 30px 40px;
+    }
+    .py-1 {
+        font-size: 17px;
+    }
+    .Footer_Card_2_Contents {
+        font-size: 17px;
+    }
+    .Footer {
+        padding: 20px;
+    }
+    .Contacts_Contacts>p {
+        font-size: 17px;
+    }
+    .Contacts_Contacts>h1 {
+        font-size: 20px;
+    }
+    .Contacts_Website>a {
+        font-size: 17px;
+    }
+    .Contacts_Website>p {
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .Contents {
+        padding: 30px 10px;
+    }
+    .Contacts_Overview_Text {
+        padding: 0px 20px;
+    }
+    .py-1 {
+        font-size: 16px;
+    }
+    .Footer_Card_2_Contents {
+        font-size: 16px;
+    }
+    .Footer {
+        padding: 15px;
+    }
+    .Contacts_Contacts>p {
+        font-size: 16px;
+    }
+    .Contacts_Contacts>h1 {
+        font-size: 19px;
+    }
+    .Contacts_Website>a {
+        font-size: 16px;
+    }
+    .Contacts_Website>p {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:450px) {
+    .Contacts_Overview_Text {
+        font-size: 16px;
+    }
+    .Title2>img {
+        width: 60px;
+    }
+    .Title1>p {
+        font-size: 40px;
+    }
+    .Title2>p {
+        font-size: 25px;
+    }
+    .Contacts_Contacts {
+        font-size: 16px;
+    }
+    .Contacts_Contents {
+        flex-wrap: wrap;
+    }
+    .py-1 {
+        font-size: 14px;
+    }
+    .Footer_Card_2_Contents {
+        font-size: 14px;
+    }
+    .Footer {
+        padding: 10px;
+    }
+    .Contacts_Contacts>p {
+        font-size: 15px;
+    }
+    .Contacts_Contacts>h1 {
+        font-size: 17px;
+    }
+    .Contacts_Website>a {
+        font-size: 15px;
+    }
+    .Contacts_Website>p {
+        font-size: 15px;
+    }
+}

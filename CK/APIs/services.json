@@ -1,0 +1,66 @@
+{
+    "services": [
+      {
+        "area": "Garden",
+        "name": "Hồ Bơi",
+        "images": [
+          "https://drive.google.com/drive-viewer/AKGpihZUSX4gGSPn3vwDxYLPIhhYXOTIrHoTq8RX3MUaRkuhasZTloFi_-lmypkpcVyZr2BavEPWGUixYa76UcKXrkNy2IShi9P3qQ=s1600-rw-v1",
+          "https://drive.google.com/drive-viewer/AKGpihaXHJ4zJ5BYIukbAsMxvS-pyx--Nbbk7aRJty9txLMgmcgQ4QxxEtSz06CZx7vFh7XyL5PDXD8kJKmtSNveWLXKexEpvqTuWQ=s1600-rw-v1"
+        ]
+      },
+      {
+        "area": "Garden",
+        "name": "Nướng BBQ",
+        "images": [
+          "https://drive.google.com/drive-viewer/AKGpihYfIKkA84MXNyRqN98tOe3InDW7rqsuRnivwrBzcEOTMfs9eR1lODO1TqRfVrZ_b3D1f-CjzvyAvtLt83vWZPoYjeUIC_ICE6A=s1600-rw-v1"
+        ]
+      },
+      {
+        "area": "Lakeside",
+        "name": "Lều di động",
+        "images": [
+          "https://drive.google.com/drive-viewer/AKGpihaZPySmNCcePlxlnU4N4G9ANyn_9UZKdOlHcYCPM8idg0lc_pqpbbWyrSgG2-OfRar-Zr68eBckj864nzsVunUqx07OCSHOZk0=s1600-rw-v1"
+        ] 
+      },
+      {
+        "area": "Lakeside",
+        "name": "Hoạt Động Trải Nghiệm",
+        "images":[
+            "https://www.google.com/url?q=https://drive.google.com/drive-viewer/AKGpihZiqi6p-qzS3OGgzVHBNi53IdJuamUhtUaJkugn1XMa9zGLsTyvG2rzQWePPBQRpFIROZanWuC8a3GloYtyKPu-QFDNjrFFCWE%3Ds1600-rw-v1&sa=D&source=editors&ust=1741412393068494&usg=AOvVaw1Jys0j2qVuVwqJclMepI1c",
+            "https://www.google.com/url?q=https://drive.google.com/drive-viewer/AKGpihbhIVDTWr6a0P8t3PPt19xTc_hButwuy2wtz3Ec58V5w_CM1nG13mbq8X7CKogZEWiPlEaYL2IHt8iROWQHxKObKVsrlgtibA%3Ds1600-rw-v1&sa=D&source=editors&ust=1741412427103267&usg=AOvVaw1VmtXk7JG0NaBmZD-H3-BW",
+            "https://drive.google.com/drive-viewer/AKGpihZZVkayAhXhO8CqCN0I_GfHXoiGnGl2I2Bg0ht92UBkE6nKINPuOJtdwzFe58K_hSN_IZ0o6YQSBlOwN6ZH3As1049BgYiMdH8=s1600-rw-v1",
+            "https://drive.google.com/drive-viewer/AKGpihasS_7E7_xhTCvcpVgg29925XxNdpiwmcEoLHqwERGPxFzrbOSHXwAfxFawm3aY4YvpEQhG8bgOsuV-8FPZYSnMD696Z3EbLVA=s1600-rw-v1",
+            "https://drive.google.com/drive-viewer/AKGpihZTNl2yky9P1-dfvf5hA_A6rGMU3PGgbL-fyhhTe1Py7qC5PrNUXI00Th8dEvYil8daXWFxSDMX2iEvT5OoOhjlWXP2QkYmSDA=s1600-rw-v1",
+            "https://drive.google.com/drive-viewer/AKGpihbqFowFPtHDkjrCoPpwNO9dL8BZzET3yIg549DZ-Pj3hF6Yra-HqD2d3F6ANBTUmZklJTu0rI-2kA2hnlMOhDjHJAnidFCSzDU=s1600-rw-v1"
+        ]
+      },
+      {
+        "area": "Lakeside",
+        "name": "Hồ Bơi",
+        "images": "https://www.google.com/url?q=https://drive.google.com/drive-viewer/AKGpihYyO26BMBV-uexpAEoiymaWnHy6pKfeMepzU2usZ8Mpdbm1oVsobatXBu-Er75M3s69yseT7P3_XJJLDzepPKTdf0bJVkHX2ng%3Ds1600-rw-v1&sa=D&source=editors&ust=1741412737806890&usg=AOvVaw2q9eV7PIeqyO9NgXnyC9r3"
+      },
+      {
+        "area": "Lakeside",
+        "name": "Nướng BBQ",
+        "images": [
+            "https://www.google.com/url?q=https://drive.google.com/drive-viewer/AKGpihZRV37D9y5T4NU1KO7yu4_Pvw7q4szYIGg8ao0MS0wCeACb6o-aNaLpGXRPs9btBjoz6ZbE5FbRleg-s7PUgo8nUEtMDEaAyw%3Ds1600-rw-v1&sa=D&source=editors&ust=1741412778084719&usg=AOvVaw3z1MHtOKpGwrjTswzXFNPd"
+        ]
+      },
+      {
+        "area": "Holiday",
+        "name": "Hồ Bơi",
+        "images": [
+            "https://www.google.com/url?q=https://drive.google.com/drive-viewer/AKGpihZwdffHczO8VyHbvSzakkaAZFEoJORxZ7n2zsFU4kuLGHLB9eOVha6MdzI5ON1Da8RTMMI9ZNr9yTHjNJSe2ZTnsGu-c2PYz_I%3Ds1600-rw-v1&sa=D&source=editors&ust=1741412839469673&usg=AOvVaw3bQfAZ0CWWa4xVjV6NOuWl",
+            "https://www.google.com/url?q=https://drive.google.com/drive-viewer/AKGpihbI6tV35Trh0zaxYgeF50bu8PpA1bbm4YJsoF8J44vMiyXjk87hOkz24oZK9gtvjG6vOXXqy3XZQzEk03dMMdU4n6ecEAQIMaM%3Ds1600-rw-v1&sa=D&source=editors&ust=1741412851492935&usg=AOvVaw0UBKGhcEHFvU9eYIaDR75p",
+            "https://www.google.com/url?q=https://drive.google.com/drive-viewer/AKGpihbPb4T8mo2w6GyJPr0jkYIx_Gd3WHl3If8XUWIb2BVIQTlECImvpgZmN2xdheYgvT0jNYS4m49No7N8AUjye5lZ4CxOoH6ZXO0%3Ds1600-rw-v1&sa=D&source=editors&ust=1741412862002845&usg=AOvVaw0fzWWuJ4GF2BU7CK6107Zx"
+        ]
+      },
+      {
+        "area": "Holiday",
+        "name": "Sân Bóng",
+        "images": [
+            "https://drive.google.com/drive-viewer/AKGpihYyYLK2cBoQ4yaJ9OCvfBtUHBNBOx3uCpb5a0y3CmxoIxN2N8h7biZzpcAAgMzTvgzxFBIgoZhvGdRbOiwXsacroPoit0acmak=s1600-rw-v1"
+        ]
+      }
+    ]
+  }

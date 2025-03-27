@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="left">Left</div>
+    <div class="right">Right</div>
+  </div>
+  
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-between; /* Pushes items to extreme left and right */
+      align-items: center; /* Centers vertically */
+      width: 100%;
+      position: relative;
+      height: 100vh; /* Full viewport height */
+    }
+    .left, .right {
+      width: 200px; /* Adjust size as needed */
+      padding: 20px;
+      background-color: lightgray;
+      text-align: center;
+    }
+    .left {
+      position: absolute;
+      left: 0;
+    }
+    .right {
+      position: absolute;
+      right: 0;
+    }
+  </style>
+  
+</body>
+</html>

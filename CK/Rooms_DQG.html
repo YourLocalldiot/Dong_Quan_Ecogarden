@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồng Quan Ecogarden</title>
+    <link rel="stylesheet" href="imgs">
+    <link rel="stylesheet" href="Rooms_DQG.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="imgs/Dong_Quan_Garden_Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="Header">
+        <div class="Header1" style="background-image: url(imgs/Garden5.PNG) ;width: 100%; background-size: cover; background-repeat: no-repeat;height: 750px">
+            <div class="NavigationBar">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary bg-success p-0" style="--bs-bg-opacity: .25;">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">
+                        <img src="imgs/Dong_Quan_Garden_Logo.png" style="height: 80px;" alt="">
+                      </a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item mx-2">
+                            <a class="nav-link active text-white"  href="index.html">TRANG CHỦ</a>
+                          </li>
+                          <li class="nav-item mx-2">
+                            <a class="nav-link active text-white" href="Rooms_DQG.html">PHÒNG</a>
+                          </li>
+                          <li class="nav-item mx-2">
+                            <a class="nav-link active text-white" href="Restaurants_DQG.html">NHÀ HÀNG</a>
+                          </li>
+                          <li class="nav-item mx-2">
+                            <a class="nav-link active text-white" href="Banquet.html">PHÒNG TIỆC</a>
+                          </li>
+                          <li class="nav-item mx-2">
+                            <a class="nav-link active text-white" href="Services.html">DỊCH VỤ</a>
+                          </li>
+                          <li class="nav-item mx-2">
+                            <a class="nav-link active text-white" aria-current="page" href="Contacts_DQG.html">LIÊN HỆ</a>
+                          </li>
+                          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+                          <li>
+                            <div class="search-container align-middle position-absolute">
+                                <div class="search-box" style="height: 45px;">
+                                    <input style=" color: white;" type="text" class="search-input align-middle" id="searchInput" placeholder="Tìm kiếm phòng..." onfocus="showSuggestions()" oninput="filterSuggestions()">
+                                    <button class="search-button align-middle mx-1 len" onclick="search()">
+                                        <img src="imgs/Magnifying_glass.png" height="33px" class="p-1">
+                                    </button>
+                                </div>
+                                <div class="suggestions" id="suggestionsBox"></div>
+                            </div>
+
+                            <a class="btn btn-primary align-middle position-absolute end-0 mx-3 len" style="width: 180px; height: 45px;" href="Reservation.html" role="button">
+                              <div class="Resevation_Button d-flex justify-content-evenly justify-content-center">
+                                  <div>
+                                      <img class="align-middle" src="imgs/Reservation_White_Outline-01-01.png" alt="" style="height: 30px;">
+                                  </div>
+                                  <div>
+                                      <p class="align-middle" style="font-family: 'Tex_Gyre_Adventor_Regular'; font-size: 20px;"> ĐẶT PHÒNG</p>
+                                  </div>
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="Title1"> 
+              <p class="d-flex justify-content-center"> Đồng Quan</p>
+              <div class="Title2">
+                <img src="imgs/White_Pointer_Left-01.png" alt="">
+                <p>ECOGARDEN</p>
+                <img src="imgs/White_Pointer_Right-01.png" alt="">
+              </div>
+            </div>
+        </div>
+    </section>
+    <section class="FixedIcons fixed-top">
+            <div class="FixedPos fixed-bottom d-flex justify-content-end " id="FbIcon" style="position: fixed; margin-bottom: 130px; margin-inline-end: 60px;">
+                <a href="#top" style="position: absolute;">
+                <i class="fa-solid fa-circle fa-beat fa-3x" style="color: #e35959;position: absolute;"></i>
+                <i class="fa-solid fa-circle fa-shake fa-3x" style="color: #e60808; position:absolute"></i>
+                <i class="fa-solid fa-arrow-up fa-shake fa-3x ms-2" style="color: #ffffff; position:absolute"></i>
+                </a>
+            </div>
+            <div class="FixedPos fixed-bottom d-flex justify-content-end" style="position: fixed;margin-bottom: 200px; margin-inline-end: 60px;">
+                <a href="https://zalo.me/0829003399" target="_blank" style="position: absolute;">
+                    <i class="fa-solid fa-circle fa-beat fa-3x" style="color: #47b383;position: absolute;"></i>
+                    <i class="fa-solid fa-circle fa-shake fa-3x" style="color: #127046; position:absolute"></i>
+                    <i class="fa-solid fa-phone fa-shake fa-2x ms-2 mt-2" style="color: #ffffff; position: absolute;"></i>
+                </a>
+            </div>
+            <div class="FixedPos fixed-bottom d-flex justify-content-end" style="position: fixed;margin-bottom: 270px; margin-inline-end: 60px;">
+                <a href="https://www.facebook.com/sinhthaidongquangarden" target="_blank" style="position: absolute;">
+                    <i class="fa-solid fa-circle fa-beat fa-3x" style="color: #3682ff; position: absolute;"></i>
+                    <i class="fa-solid fa-circle fa-shake fa-3x" style="color: #ffffff; position:absolute"></i>
+                    <i class="fa-brands fa-facebook fa-shake fa-3x" style="color: #0866ff; position:absolute"></i>
+                </a>
+            </div>
+    </section>
+    <section class="Contents"> 
+      <div class="Areas">
+        <div class="Areas_Overview mx-5" style="font-family: 'Comfortaa';">
+          <p class="Areas_Overview mx-5" style="font-family: 'Comfortaa'; font-size: 18px; text-align: center;"> Ở tại Đồng Quan Ecogarden, có 3 loại phòng nghỉ bao gồm: 
+            Phòng khách sạn, Villa, và Bungalow. Mỗi loại phòng sẽ khác nhau tùy vào số khách và mục đích của khách hàng.
+          </p>
+        </div>
+        <div class="Areas_Title d-flex justify-content-center" style="font-family: 'Comfortaa_Bold';"> Đồng Quan Garden</div>
+        <div class="Areas2 d-flex justify-content-between flex-wrap"> 
+          <div class="Areas_Lakeside m-3" style="width: 100%; min-height: 350px; max-width: 550px;"> 
+            <div id="carouselExampleIndicators" class="carousel slide my-3">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item Areas_imgs active">
+                  <img src="imgs/Garden_Room3.jpeg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Garden_Room2.jpeg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Garden_Room1.jpeg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Garden_Room4.jpeg" class="d-block" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <p class="Areas_Contents_Title" style="font-family: Tex_Gyre_Adventor_Bold;">Superior Double</p>
+            <div class="Areas_Contents_Contents" style="font-family: Comfortaa;"> - <i class="fa-solid fa-vector-square"></i> 28 m² <br> - <i class="fa-solid fa-bed"></i> 1 giường đôi
+              <br> - <i class="fa-solid fa-sink"></i> 1 Phòng Tắm <br> - <i class="fa-solid fa-mug-hot"></i> Tủ lạnh + Trà
+            </div>
+          </div>
+          <div class="Areas_Holiday m-3" style="width: 100%;min-height: 350px; max-width: 550px;"> 
+            <div id="carouselExampleIndicators1" class="carousel slide my-3">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item Areas_imgs active">
+                  <img src="imgs/Garden_Room6.JPG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Garden_Room5.JPG" class="d-block" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <p class="Areas_Contents_Title" style="font-family: Tex_Gyre_Adventor_Bold;">Deluxe Double</p>
+            <div class="Areas_Contents_Contents" style="font-family: Comfortaa;">  - <i class="fa-solid fa-vector-square"></i> 55, 59, 67 m² <br> - <i class="fa-solid fa-bed"></i> 1 giường đôi
+              <br> - <i class="fa-solid fa-sink"></i> 1 Phòng Tắm <br> - <i class="fa-solid fa-mug-hot"></i> Tủ lạnh + Trà
+            </div>
+          </div>
+        </div>
+        <div class="Areas2 d-flex justify-content-between flex-wrap"> 
+          <div class="Areas_Lakeside m-3" style="width: 100%; min-height: 350px; max-width: 550px;"> 
+            <div id="carouselExampleIndicators3" class="carousel slide my-3">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item Areas_imgs active">
+                    <img src="imgs/Garden_Room9.PNG" class="d-block" alt="...">
+                  </div>
+                  <div class="carousel-item Areas_imgs">
+                    <img src="imgs/Garden_Room8.JPG" class="d-block" alt="...">
+                  </div>
+                  <div class="carousel-item Areas_imgs">
+                    <img src="imgs/Garden_Room7.JPG" class="d-block" alt="...">
+                  </div>
+                </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <p class="Areas_Contents_Title" style="font-family: Tex_Gyre_Adventor_Bold;">Superior Twin</p>
+            <div class="Areas_Contents_Contents" style="font-family: Comfortaa;"> - <i class="fa-solid fa-vector-square"></i> 34 m² <br> - <i class="fa-solid fa-bed"></i> 2 giường đơn
+              <br> - <i class="fa-solid fa-sink"></i> 1 Phòng Tắm <br> - <i class="fa-solid fa-mug-hot"></i> Tủ lạnh + Trà
+            </div>
+          </div>
+          <div class="Areas_Holiday m-3" style="width: 100%;min-height: 350px; max-width: 550px;"> 
+            <div id="carouselExampleIndicators4" class="carousel slide my-3">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item Areas_imgs active">
+                  <img src="imgs/Garden_Room10.PNG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Garden_Room11.PNG" class="d-block" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <p class="Areas_Contents_Title" style="font-family: Tex_Gyre_Adventor_Bold;">Family Triple</p>
+            <div class="Areas_Contents_Contents" style="font-family: Comfortaa;">  - <i class="fa-solid fa-vector-square"></i> 59, 68 m² <br> - <i class="fa-solid fa-bed"></i> 1 giường đơn + 1 giường đôi
+              <br> - <i class="fa-solid fa-sink"></i> 1 Phòng Tắm <br> - <i class="fa-solid fa-mug-hot"></i> Tủ lạnh + Trà
+            </div>
+          </div>
+        </div>
+        <div class="Areas2 d-flex justify-content-between flex-wrap"> 
+          <div class="Areas_Lakeside m-3" style="width: 100%; min-height: 350px; max-width: 550px;"> 
+            <div id="carouselExampleIndicators5" class="carousel slide my-3">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item Areas_imgs active">
+                  <img src="imgs/Garden_Villa1.JPG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Garden_Villa2.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Garden_Villa3.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Garden_Villa4.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Garden_Villa5.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Garden_Villa6.jpg" class="d-block" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <p class="Areas_Contents_Title" style="font-family: Tex_Gyre_Adventor_Bold;">Villa 1</p>
+            <div class="Areas_Contents_Contents" style="font-family: Comfortaa;"> - <i class="fa-solid fa-vector-square"></i> 220 m² <br> - <i class="fa-solid fa-bed"></i> 3 Phòng ngủ
+              <br> - <i class="fa-solid fa-person"></i>  10 người <br> - <i class="fa-solid fa-mug-hot"></i> Tủ lạnh + Trà <br> - <i class="fa-solid fa-kitchen-set"></i>
+               Nhà bếp
+            </div>
+          </div>
+          <div class="Areas_Holiday m-3" style="width: 100%;min-height: 350px; max-width: 550px;"> 
+            <div id="carouselExampleIndicators6" class="carousel slide my-3">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item Areas_imgs active">
+                  <img src="imgs/Garden_Villa7.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Garden_Villa8.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Garden_Villa9.jpg" class="d-block" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <p class="Areas_Contents_Title" style="font-family: Tex_Gyre_Adventor_Bold;">Villa 2</p>
+            <div class="Areas_Contents_Contents" style="font-family: Comfortaa;">  - <i class="fa-solid fa-vector-square"></i> 205 m² <br> - <i class="fa-solid fa-bed"></i> 7 giường
+              <br> - <i class="fa-solid fa-person"></i>  15 người <br> - <i class="fa-solid fa-mug-hot"></i> Tủ lạnh + Trà <br> - <i class="fa-solid fa-kitchen-set"></i>
+               Bếp nướng than
+            </div>
+          </div>
+        </div>
+        <div class="Areas_Title d-flex justify-content-center my-3" style="font-family: 'Comfortaa_Bold';"> Đồng Quan Lakeside</div>
+        <div class="Areas2 d-flex justify-content-between flex-wrap"> 
+          <div class="Areas_Lakeside m-3" style="width: 100%; min-height: 200px; max-width: 350px;"> 
+            <div id="carouselExampleIndicators7" class="carousel slide my-3">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item Areas_imgs2 active">
+                  <img src="imgs/Lakeside_Bungalow1.PNG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs2">
+                  <img src="imgs/Lakeside_Bungalow5.PNG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs2">
+                  <img src="imgs/Lakeside_Bungalow6.PNG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs2">
+                  <img src="imgs/Lakeside_Bungalow7.PNG" class="d-block" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators7" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <p class="Areas_Contents_Title2" style="font-family: Tex_Gyre_Adventor_Bold;">Bungalow Twin</p>
+            <div class="Areas_Contents_Contents" style="font-family: Comfortaa;"> - <i class="fa-solid fa-bed"></i> 2 giường đôi
+              <br> - <i class="fa-solid fa-sink"></i> 1 Phòng Tắm <br> - <i class="fa-solid fa-mug-hot"></i> Tủ lạnh
+            </div>
+          </div>
+          <div class="Areas_Holiday m-3" style="width: 100%;min-height: 200px; max-width: 350px;"> 
+            <div id="carouselExampleIndicators9" class="carousel slide my-3">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item Areas_imgs2 active">
+                  <img src="imgs/Lakeside_Bungalow4.JPG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs2">
+                  <img src="imgs/Lakeside_Bungalow2.PNG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs2">
+                  <img src="imgs/Lakeside_Bungalow3.PNG" class="d-block" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators9" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <p class="Areas_Contents_Title2" style="font-family: Tex_Gyre_Adventor_Bold;">Bungalow Triple</p>
+            <div class="Areas_Contents_Contents" style="font-family: Comfortaa;"> - <i class="fa-solid fa-bed"></i> 3 giường đôi
+              <br> - <i class="fa-solid fa-sink"></i> 1 Phòng Tắm <br> - <i class="fa-solid fa-mug-hot"></i> Tủ lạnh
+            </div>
+          </div>
+          <div class="Areas_Holiday m-3" style="width: 100%;min-height: 200px; max-width: 350px;"> 
+            <div id="carouselExampleIndicators8" class="carousel slide my-3">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item Areas_imgs2 active">
+                  <img src="imgs/Lakeside1.JPG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs2">
+                  <img src="imgs/Lakeside_Villa1.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs2">
+                  <img src="imgs/Lakeside_Villa2.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs2">
+                  <img src="imgs/Lakeside_Villa3.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs2">
+                  <img src="imgs/Lakeside_Villa4.jpg" class="d-block" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators8" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <p class="Areas_Contents_Title2" style="font-family: Tex_Gyre_Adventor_Bold;">Bungalow Double</p>
+            <div class="Areas_Contents_Contents" style="font-family: Comfortaa;"> - <i class="fa-solid fa-bed"></i> 1 giường đôi
+              <br> - <i class="fa-solid fa-sink"></i> 1 Phòng Tắm <br> - <i class="fa-solid fa-mug-hot"></i> Tủ lạnh + Trà
+            </div>
+          </div>
+        </div>
+        <div class="Areas_Title d-flex my-3 justify-content-center" style="font-family: 'Comfortaa_Bold';"> Đồng Quan Holiday</div>
+        <div class="Areas2 d-flex justify-content-between flex-wrap"> 
+          <div class="Areas_Lakeside m-3" style="width: 100%; min-height: 200px; max-width: 350px;"> 
+            <div id="carouselExampleIndicators10" class="carousel slide my-3">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item Areas_imgs2 active">
+                  <img src="imgs/Holiday_Room1.PNG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs2">
+                  <img src="imgs/Holiday_Room2.PNG" class="d-block" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators10" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <p class="Areas_Contents_Title2" style="font-family: Tex_Gyre_Adventor_Bold;">Superior Double</p>
+            <div class="Areas_Contents_Contents" style="font-family: Comfortaa;"> - <i class="fa-solid fa-vector-square"></i> 28m² <br> - <i class="fa-solid fa-bed"></i> 1 giường đôi
+              <br> - <i class="fa-solid fa-sink"></i> 1 Phòng Tắm <br> - <i class="fa-solid fa-mug-hot"></i> Tủ lạnh + Trà
+            </div>
+          </div>
+          <div class="Areas_Holiday m-3" style="width: 100%;min-height: 200px; max-width: 350px;"> 
+            <div id="carouselExampleIndicators11" class="carousel slide my-3">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item Areas_imgs2 active">
+                  <img src="imgs/Holiday_Room3.PNG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs2">
+                  <img src="imgs/Holiday_Room4.PNG" class="d-block" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators11" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <p class="Areas_Contents_Title2" style="font-family: Tex_Gyre_Adventor_Bold;">Deluxe Double</p>
+            <div class="Areas_Contents_Contents" style="font-family: Comfortaa;"> - <i class="fa-solid fa-vector-square"></i> 35, 42m² <br> - <i class="fa-solid fa-bed"></i> 1 giường đơn
+              <br> - <i class="fa-solid fa-sink"></i> 1 Phòng Tắm <br> - <i class="fa-solid fa-mug-hot"></i> Tủ lạnh + Trà
+            </div>
+          </div>
+          <div class="Areas_Holiday m-3" style="width: 100%;min-height: 200px; max-width: 350px;"> 
+            <div id="carouselExampleIndicators12" class="carousel slide my-3">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item Areas_imgs2 active">
+                  <img src="imgs/Holiday_Room5.PNG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs2">
+                  <img src="imgs/Holiday_Room6.PNG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs2">
+                  <img src="imgs/Holiday_Room7.PNG" class="d-block" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators12" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <p class="Areas_Contents_Title2" style="font-family: Tex_Gyre_Adventor_Bold;">Superior Twin</p>
+            <div class="Areas_Contents_Contents" style="font-family: Comfortaa;"> - <i class="fa-solid fa-vector-square"></i> 23, 27 m² <br> - <i class="fa-solid fa-bed"></i> 2 giường đơn
+              <br> - <i class="fa-solid fa-sink"></i> 1 Phòng Tắm <br> - <i class="fa-solid fa-mug-hot"></i> Tủ lạnh + Trà
+            </div>
+          </div>
+          <div class="Areas_Lakeside m-3" style="width: 100%; min-height: 350px; max-width: 550px;"> 
+            <div id="carouselExampleIndicators13" class="carousel slide my-3">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators13" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators13" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators13" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators13" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators13" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item Areas_imgs active">
+                  <img src="imgs/Holiday_Villa1.PNG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Holiday_Villa2.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Holiday_Villa3.PNG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Holiday_Villa4.PNG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Holiday_Villa5.PNG" class="d-block" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators13" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators13" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <p class="Areas_Contents_Title" style="font-family: Tex_Gyre_Adventor_Bold;">Villa</p>
+            <div class="Areas_Contents_Contents" style="font-family: Comfortaa;"> - <i class="fa-solid fa-vector-square"></i> 206 m² <br> - <i class="fa-solid fa-bed"></i> 3 giường đôi <br> - <i class="fa-solid fa-person"></i>  10 người 
+              <br> - <i class="fa-solid fa-sink"></i>  1 Phòng Tắm <br> - <i class="fa-solid fa-mug-hot"></i> Tủ lạnh + Trà
+            </div>
+          </div>
+          <div class="Areas_Holiday m-3" style="width: 100%;min-height: 350px; max-width: 550px;"> 
+            <div id="carouselExampleIndicators14" class="carousel slide my-3">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators14" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators14" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators14" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators14" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators14" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item Areas_imgs active">
+                  <img src="imgs/Holiday_Bungalow1.JPG" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Lakeside_Villa1.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Lakeside_Villa2.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Lakeside_Villa3.jpg" class="d-block" alt="...">
+                </div>
+                <div class="carousel-item Areas_imgs">
+                  <img src="imgs/Lakeside_Villa4.jpg" class="d-block" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators14" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators14" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <p class="Areas_Contents_Title" style="font-family: Tex_Gyre_Adventor_Bold;">Bungalow Double</p>
+            <div class="Areas_Contents_Contents" style="font-family: Comfortaa;"> - <i class="fa-solid fa-bed"></i> 1 giường đôi
+              <br> - <i class="fa-solid fa-sink"></i> 1 Phòng Tắm <br> - <i class="fa-solid fa-mug-hot"></i> Tủ lạnh + Trà
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Footer d-flex justify-content-between flex-wrap">
+      <div class="card border-0 Footer_1" style="max-width: 600px; background-color: rgb(0, 53, 0);">
+        <div class="card-header border-0 Footer_Card_1_Title" style="background-color: rgb(0, 53, 0); color: white; font-family: 'Tex_Gyre_Adventor_Regular';">Đồng Quan Ecogarden</div>
+        <div class="card-body text-success">
+          <div class="card-text Footer_Card_1_Contents" style="color: white; font-family: 'Comfortaa';">
+            <div class="py-1">
+              <i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
+              Email: ngoclinhecogarden@gmail.com
+            </div>
+            <div class="py-1">
+              <i class="fa-regular fa-map" style="color: #ffffff;"></i>
+              Địa Chỉ: 79, khu E, hồ Đồng Quan, Sóc Sơn, Hà Nội, Vietnam
+            </div>
+            <div> 
+              <i class="fa-solid fa-voicemail"></i>
+              Điện Thoại: 0989 303 799
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card border-0" style="max-width: 600px; background-color: rgb(0, 53, 0); ">
+        <div class="card-header border-0 Footer_Card_1_Title" style="background-color: rgb(0, 53, 0); color: white; font-family: 'Tex_Gyre_Adventor_Regular';">Thông Tin</div>
+        <div class="card-body text-success">
+          <ul class="card-text Footer_Card_2_Contents" style="color: white; font-family: 'Comfortaa'; text-decoration: none;">
+            <li><a href="Overview.html">Giới Thiệu</a></li>
+            <li> <a href="Contacts_DQG.html">Liên Hệ</a></li>
+            <li> <a href="Rooms_DQG.html">Phòng</a></li>
+            <li> <a href="Banquet.html">Phòng Tiệc</a></li>
+            <li> <a href="Services.html">Dịch Vụ</a></li>
+            <li> <a href="Restaurants_DQG.html">Nhà Hàng</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="card border-0 Footer_3" style="max-width: 600px; background-color: rgb(0, 53, 0);">
+        <div class="card-header border-0 Footer_Card_1_Title" style="background-color: rgb(0, 53, 0); color: white; font-family: 'Tex_Gyre_Adventor_Regular';">Tổ Hợp Khu</div>
+        <div class="card-body text-success">
+          <ul class="card-text Footer_Card_2_Contents" style="color: white; font-family: 'Comfortaa'; text-decoration: none;">
+            <li><a href="Home_DQG.html">Đồng Quan Garden</a></li>
+            <li> <a href="Home_DQG.html">Đồng Quan Lakeside</a></li>
+            <li> <a href="Home_DQG.html">Đồng Quan Holiday</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script>
+      let filteredRooms = [];
+      fetch('APIs/rooms.json')
+          .then(response => response.json())
+          .then(data => {
+              filteredRooms = data.rooms;
+              console.log("Rooms loaded:", filteredRooms);
+          })
+          .catch(error => console.error('Error loading JSON:', error));
+  
+      function populateSuggestions() {
+          const suggestionsBox = document.getElementById("suggestionsBox");
+          suggestionsBox.innerHTML = "";
+  
+          filteredRooms.forEach(room => {
+              let suggestionText = `${room.area}: ${room.name}`;
+              let div = document.createElement("div");
+              div.textContent = suggestionText;
+              div.onclick = () => selectSuggestion(suggestionText);
+              suggestionsBox.appendChild(div);
+          });
+  
+          suggestionsBox.style.display = "block";
+      }
+  
+      function showSuggestions() {
+          if (filteredRooms.length > 0) {
+              populateSuggestions();
+          }
+      }
+  
+      function selectSuggestion(value) {
+          document.getElementById("searchInput").value = value;
+          document.getElementById("suggestionsBox").style.display = "none";
+      }
+  
+      function filterSuggestions() {
+          let input = document.getElementById("searchInput").value.toLowerCase();
+          let suggestionsBox = document.getElementById("suggestionsBox");
+          suggestionsBox.innerHTML = "";
+  
+          let filtered = filteredRooms.filter(room => `${room.area}: ${room.name}`.toLowerCase().includes(input));
+  
+          filtered.forEach(room => {
+              let suggestionText = `${room.area}: ${room.name}`;
+              let div = document.createElement("div");
+              div.textContent = suggestionText;
+              div.onclick = () => selectSuggestion(suggestionText);
+              suggestionsBox.appendChild(div);
+          });
+  
+          suggestionsBox.style.display = filtered.length ? "block" : "none";
+      }
+  
+      function search() {
+          let query = document.getElementById("searchInput").value;
+          let selectedRoom = filteredRooms.find(room => `${room.area}: ${room.name}` === query);
+  
+          if (selectedRoom) {
+              let newWindow = window.open(`details.html?id=${selectedRoom.id}`, "_blank");
+  
+              newWindow.document.write(roomDetails);
+          } else {
+              alert("Please select a valid option from the suggestions.");
+          }
+      }
+      document.addEventListener("click", function (event) {
+          const searchContainer = document.querySelector(".search-container");
+          const suggestionsBox = document.getElementById("suggestionsBox");
+  
+          if (!searchContainer.contains(event.target)) {
+              suggestionsBox.style.display = "none";
+          }
+      });
+  </script>
+</body>
+</html>

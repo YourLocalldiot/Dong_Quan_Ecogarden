@@ -1,0 +1,219 @@
+{
+    "rooms": [
+      {
+        "id": "1",
+        "area": "Garden",
+        "name": "Superior Double",
+        "size": "28 m²",
+        "beds": "1 giường đôi",
+        "capacity":"2 người",
+        "bathroom": "1 Phòng Tắm",
+        
+        "amenities": ["Tủ lạnh", "Trà"],
+        "images": [
+          "https://i.postimg.cc/tTSXwjD0/Garden-Room3.jpg",
+          "https://i.postimg.cc/SNwKmm4k/Garden-Room2.jpg",
+          "https://i.postimg.cc/J7Yndbdy/Garden-Room1.jpg",
+          "https://i.postimg.cc/Y9qrd96f/Garden-Room4.jpg"
+        ]
+      },
+      {
+        "id": "2",
+        "area": "Garden",
+        "name": "Deluxe Double",
+        "size": "55, 59, 67 m²",
+        "beds": "1 giường đôi",
+        "capacity":"2 người",
+        "bathroom": "1 Phòng Tắm",
+        "amenities": ["Tủ lạnh", "Trà"],
+        "images":[
+          "https://i.postimg.cc/fRmRL1WX/Garden-Room6.jpg",
+          "https://i.postimg.cc/kXV4rBkT/Garden-Room5.jpg"
+        ]
+      },
+      {
+        "id": "3",
+        "area": "Garden",
+        "name": "Superior Twin",
+        "size": "34 m²",
+        "beds": "2 giường đơn",
+        "capacity":"2 người",
+        "bathroom": "1 Phòng Tắm",
+        "amenities": ["Tủ lạnh", "Trà"],
+        "images": [
+          "https://i.postimg.cc/XNPjgnpd/Garden-Room9.png",
+          "https://i.postimg.cc/XvW7yxXP/Garden-Room8.jpg",
+          "https://i.postimg.cc/PqMfbZw5/Garden-Room7.jpg"
+        ]
+      },
+      {
+        "id": "4",
+        "area": "Garden",
+        "name": "Family Triple",
+        "size": "59, 68 m²",
+        "beds": "1 giường đơn + 1 giường đôi",
+        "capacity":"3 người",
+        "bathroom": "1 Phòng Tắm",
+        "amenities": ["Tủ lạnh", "Trà"],
+        "images":[
+          "https://i.postimg.cc/QCvjNJR0/Garden-Room10.png",
+          "https://i.postimg.cc/dtTqHgyX/Garden-Room11.png"
+        ]
+      },
+      {
+        "id": "5",
+        "area": "Garden",
+        "name": "Villa 1",
+        "size": "220 m²",
+        "beds": "3 giường đôi",
+        "bathroom": "4 Phòng Tắm",
+        "capacity": "10 người",
+        "amenities": ["Tủ lạnh", "Trà", "Nhà bếp"],
+        "images":[
+          "https://i.postimg.cc/W1LsQSm4/Garden-Villa1.jpg",
+          "https://i.postimg.cc/qvsp0nQx/Garden-Villa2.jpg",
+          "https://i.postimg.cc/JhRMhn2V/Garden-Villa3.jpg",
+          "https://i.postimg.cc/mrVR1svc/Garden-Villa4.jpg",
+          "https://i.postimg.cc/k44CxHCT/Garden-Villa5.jpg",
+          "https://i.postimg.cc/wvGpFkTg/Garden-Villa6.jpg"
+        ]
+      },
+      {
+        "id": "6",
+        "area": "Garden",
+        "name": "Villa 2",
+        "size": "205 m²",
+        "beds": "7 giường đôi",
+        "capacity": "15 người",
+        "bathroom": "6 Phòng Tắm",
+        "amenities": ["Tủ lạnh", "Trà", "Bếp nướng than"],
+        "images": [
+          "https://i.postimg.cc/7ZkfgqWX/Garden-Villa7.jpg",
+          "https://i.postimg.cc/qMnNhNjz/Garden-Villa8.jpg",
+          "https://i.postimg.cc/3rzyxXjs/Garden-Villa9.jpg"
+        ]
+      },
+      {
+        "id": "7",
+        "area": "Lakeside",
+        "name": "Bungalow Twin",
+        "beds": "2 giường đôi",
+        "capacity":"4 người",
+        "bathroom": "1 Phòng Tắm",
+        "amenities": ["Tủ lạnh"],
+        "images": [
+          "https://i.postimg.cc/gJZWSZwh/Lakeside_Bungalow1.jpg",
+          "https://i.postimg.cc/8kLGLLgQ/Lakeside_Bungalow5.jpg",
+          "https://i.postimg.cc/VL18g5zS/Lakeside_Bungalow6.jpg",
+          "https://i.postimg.cc/28wfKm50/Lakeside_Bungalow7.jpg"
+        ]
+      },
+      {
+        "id": "8",
+        "area": "Lakeside",
+        "name": "Bungalow Triple",
+        "capacity":"6 người",
+        "beds": "3 giường đôi",
+        "bathroom": "1 Phòng Tắm",
+        "amenities": ["Tủ lạnh"],
+        "images": [
+          "https://i.postimg.cc/FzrTdtQK/Lakeside_Bungalow4.jpg",
+          "https://i.postimg.cc/MHJ8hpRF/Lakeside_Bungalow2.jpg",
+          "https://i.postimg.cc/hv8qgR1P/Lakeside_Bungalow3.jpg"
+        ]
+      },
+      {
+        "id": "9",
+        "area": "Lakeside",
+        "name": "Bungalow Double",
+        "beds": "1 giường đôi",
+        "capacity":"2 người",
+        "bathroom": "1 Phòng Tắm",
+        "amenities": ["Tủ lạnh", "Trà"],
+        "images": [
+          "https://i.postimg.cc/C1FGJjrP/Lakeside1.jpg",
+          "https://i.postimg.cc/P55kGcpT/Lakeside_Villa1.jpg",
+          "https://i.postimg.cc/L8QFmTLf/Lakeside_Villa2.jpg",
+          "https://i.postimg.cc/GpZ0ymMm/Lakeside_Villa3.jpg",
+          "https://i.postimg.cc/0N6Rjw04/Lakeside_Villa4.jpg"
+        ]
+      },
+      {
+        "id": "10",
+        "area": "Holiday",
+        "name": "Superior Double",
+        "size": "28m²",
+        "beds": "1 giường đôi",
+        "capacity":"2 người",
+        "bathroom": "1 Phòng Tắm",
+        "amenities": ["Tủ lạnh", "Trà"],
+        "images": [
+          "https://i.postimg.cc/wjgj101G/Holiday-Room1.png",
+          "https://i.postimg.cc/L6zs4r8P/Holiday-Room2.jpg"
+        ]
+      },
+      {
+        "id": "11",
+        "area": "Holiday",
+        "name": "Deluxe Double",
+        "size": "35, 42m²",
+        "beds": "1 giường đơn",
+        "capacity":"2 người",
+        "bathroom": "1 Phòng Tắm",
+        "amenities": ["Tủ lạnh", "Trà"],
+        "images": [
+          "https://i.postimg.cc/zffDjvSw/Holiday-Room3.png",
+          "https://i.postimg.cc/13B5ww65/Holiday_Room4.png"
+        ]
+      },
+      {
+        "id": "12",
+        "area": "Holiday",
+        "name": "Superior Twin",
+        "size": "23, 27 m²",
+        "beds": "2 giường đơn",
+        "capacity":"2 người",
+        "bathroom": "1 Phòng Tắm",
+        "amenities": ["Tủ lạnh", "Trà"],
+        "images": [
+          "https://i.postimg.cc/bvFyFP37/Holiday_Room5.png",
+          "https://i.postimg.cc/nzyHpk8T/Holiday_Room6.png",
+          "https://i.postimg.cc/fLtwGPPJ/Holiday_Room7.jpg"
+        ]
+      },
+      {
+        "id": "13",
+        "area": "Holiday",
+        "name": "Villa",
+        "size": "206 m²",
+        "beds": "3 giường đôi",
+        "capacity": "10 người",
+        "bathroom": "4 Phòng Tắm",
+        "amenities": ["Tủ lạnh", "Trà"],
+        "images": [
+          "https://i.postimg.cc/zf35hM80/Holiday_Villa1.png",
+          "https://i.postimg.cc/gj3GJZmp/Holiday_Villa2.jpg",
+          "https://i.postimg.cc/MZB6thRL/Holiday_Villa3.jpg",
+          "https://i.postimg.cc/kXdnHfvg/Holiday_Villa4.jpg",
+          "https://i.postimg.cc/Dwxn8FkS/Holiday_Villa5.jpg"
+        ]
+      },
+      {
+        "id": "14",
+        "area": "Holiday",
+        "name": "Bungalow Double",
+        "beds": "1 giường đôi",
+        "capacity":"2 người",
+        "bathroom": "1 Phòng Tắm",
+        "amenities": ["Tủ lạnh", "Trà"],
+        "images": [
+          "https://i.postimg.cc/Vs06pSyD/Holiday-Bungalow1.jpg",
+          "https://i.postimg.cc/P55kGcpT/Lakeside_Villa1.jpg",
+          "https://i.postimg.cc/L8QFmTLf/Lakeside_Villa2.jpg",
+          "https://i.postimg.cc/GpZ0ymMm/Lakeside_Villa3.jpg",
+          "https://i.postimg.cc/0N6Rjw04/Lakeside_Villa4.jpg"
+        ]
+      }
+    ]
+  }
+  

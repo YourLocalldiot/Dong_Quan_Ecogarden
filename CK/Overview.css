@@ -1,0 +1,202 @@
+@font-face {
+    font-family: Avant_Garde_Bold;
+    src: url(/fonts/AVGARDD_2.TTF);
+}
+@font-face {
+    font-family: Avant_Garde_Italic;
+    src: url(/fonts/AVGARDDO_2.TTF);
+}
+@font-face {
+    font-family: Avant_Garde_Regular;
+    src: url(/fonts/AVGARDN_2.TTF); 
+}
+@font-face {
+    font-family: Tex_Gyre_Adventor_Regular;
+    src: url(/fonts/texgyreadventor-regular.ttf);
+}
+@font-face {
+    font-family: Tex_Gyre_Adventor_Bold;
+    src: url(/fonts/texgyreadventor-bold.ttf);
+}
+@font-face {
+    font-family: Tex_Gyre_Adventor_BoldItalic;
+    src: url(/fonts/texgyreadventor-bolditalic.ttf);
+}
+@font-face {
+    font-family: Tex_Gyre_Adventor_Italic;
+    src: url(/fonts/texgyreadventor-italic.ttf);
+}
+@font-face {
+    font-family: Comfortaa_Bold;
+    src: url(/fonts/Comfortaa-Bold.ttf);
+}
+.Header {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+.Header1 {
+    background-image: url(Garden1.jpg);
+}
+.HeaderBg {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+.HeaderBg>img {
+    padding: 0%;
+    margin: 0%;
+}
+.nav-item>a {
+    font-family:"Tex_Gyre_Adventor_Bold";
+    font-size: 18px;
+}
+.FixedPos {
+
+}
+.Reservation_Buton {
+    font-family: "Tex_Gyre_Adventor_Regular";
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    width: 200px;
+}
+.Title1>p {
+    font-family: "Tex_Gyre_Adventor_Regular";
+    color: white;
+    font-size: 80px;
+}
+.Contents {
+    padding: 60px 80px;
+}
+.Title1 {
+    height: 551px;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:stretch;
+    padding: 0%;
+}
+.Title2>img {
+    width: 150px;
+    height: fit-content;
+}
+.Title2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Title2>p {
+    font-family: "Tex_Gyre_Adventor_Regular";
+    color: white;
+    font-size: 50px;
+}
+
+.Footer {
+    background-color: rgb(0, 53, 0);
+    padding: 40px;
+}
+.Footer_Card_1_Title {
+    font-size: 30px;
+}
+.Footer_Card_1_Contents {
+    font-size: 18px;
+}
+.Footer_Card_2_Contents {
+    font-size: 19px;
+}
+.Footer_Card_2_Contents>li>a {
+    text-decoration: none;
+    color: white;
+}
+.Areas_Title {
+    font-size: 50px;
+}
+.Areas_Contents_Title {
+    font-size: 45px;
+}
+.Areas_Contents_Contents {
+    font-size: 18px;
+}
+.Footer_1 {
+    min-width: 100px;
+}
+.Footer_2 {
+    min-width: 100px;
+}
+.Footer_3 {
+    min-width: 100px;
+}
+.carousel-item>img {
+    width: 100%;
+}
+@media only screen and (max-width:750px) {
+    .Title2>img {
+        width: 100px;
+    }
+    .Title1>p {
+        font-size: 60px;
+    }
+    .Title2>p {
+        font-size: 37.5px;
+    }
+    .Contents {
+        padding: 30px 40px;
+    }
+    .Header1 {
+        height: 500.25px;
+    }
+    .Title1 {
+        height: 410.25px;
+    }
+    .py-1 {
+        font-size: 17px;
+    }
+    .Footer_Card_2_Contents {
+        font-size: 17px;
+    }
+    .Footer {
+        padding: 20px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .Contents {
+        padding: 30px 10px;
+    }
+    .Header1 {
+        height: 400.2px;
+    }
+    .Title1 {
+        height: 320.25px;
+    }
+    .py-1 {
+        font-size: 16px;
+    }
+    .Footer_Card_2_Contents {
+        font-size: 16px;
+    }
+    .Footer {
+        padding: 15px;
+    }
+}
+@media only screen and (max-width:450px) {
+    .Title2>img {
+        width: 60px;
+    }
+    .Title1>p {
+        font-size: 40px;
+    }
+    .Title2>p {
+        font-size: 25px;
+    }
+    .py-1 {
+        font-size: 14px;
+    }
+    .Footer_Card_2_Contents {
+        font-size: 14px;
+    }
+    .Footer {
+        padding: 10px;
+    }
+}
