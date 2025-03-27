@@ -1,34 +1,34 @@
 @font-face {
     font-family: Avant_Garde_Bold;
-    src: url(/fonts/AVGARDD_2.TTF);
+    src: url(fonts/AVGARDD_2.TTF);
 }
 @font-face {
     font-family: Avant_Garde_Italic;
-    src: url(/fonts/AVGARDDO_2.TTF);
+    src: url(fonts/AVGARDDO_2.TTF);
 }
 @font-face {
     font-family: Avant_Garde_Regular;
-    src: url(/fonts/AVGARDN_2.TTF); 
+    src: url(fonts/AVGARDN_2.TTF); 
 }
 @font-face {
     font-family: Tex_Gyre_Adventor_Regular;
-    src: url(/fonts/texgyreadventor-regular.ttf);
+    src: url(fonts/texgyreadventor-regular.ttf);
 }
 @font-face {
     font-family: Tex_Gyre_Adventor_Bold;
-    src: url(/fonts/texgyreadventor-bold.ttf);
+    src: url(fonts/texgyreadventor-bold.ttf);
 }
 @font-face {
     font-family: Tex_Gyre_Adventor_BoldItalic;
-    src: url(/fonts/texgyreadventor-bolditalic.ttf);
+    src: url(fonts/texgyreadventor-bolditalic.ttf);
 }
 @font-face {
     font-family: Tex_Gyre_Adventor_Italic;
-    src: url(/fonts/texgyreadventor-italic.ttf);
+    src: url(fonts/texgyreadventor-italic.ttf);
 }
 @font-face {
     font-family: Comfortaa_Bold;
-    src: url(/fonts/Comfortaa-Bold.ttf);
+    src: url(fonts/Comfortaa-Bold.ttf);
 }
 
 .DetailsContents {
