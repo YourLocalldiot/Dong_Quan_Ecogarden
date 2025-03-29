@@ -243,7 +243,7 @@
           let selectedRoom = filteredRooms.find(room => `${room.area}: ${room.name}` === query);
   
           if (selectedRoom) {
-              let newWindow = window.open(`details.html?id=${selectedRoom.id}`, "_blank");
+              let newWindow = window.open(`Details.html?id=${selectedRoom.id}`, "_blank");
   
               newWindow.document.write(roomDetails);
           } else {
